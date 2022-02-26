@@ -1,0 +1,59 @@
+body,p,h1,h2,h3,h4{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+i{
+    font-style: normal;
+}
+input{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+}
+body{
+    font: 14px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    color: black;
+    background-image: url("imgs/图片2.png");
+    background-color: darkgray;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.layer{
+    width: 1080px;
+    margin: 0 auto;
+}
+.c1{
+    color: #ff9999;
+}
+.c2{
+    color: #ffcccc;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}

@@ -1,0 +1,196 @@
+<!--主界面-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>寻物网-寻！你想要的</title>
+    <style type="text/css">
+        .searchBox {
+            width: 554px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 2px solid #ace0f9;
+            border-right: none;
+            border-radius: 20px 0 0 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #post {
+            width: 250px;
+            height: 840px;
+            background-color: #99ccff;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--头部信息-->
+<div id="headMessage" class="clearfix">
+    <ul class="fl">
+        <li>
+            <span>定位</span>
+        </li>
+        <li>
+            <a href="login.html" class="login">客官，请登录</a>
+            <a href="login.html">免费注册</a>
+        </li>
+        <li>
+            <a href="#">手机逛寻物</a>
+        </li>
+        <li>
+            <a href="homePage.html">首页</a>
+        </li>
+    </ul>
+    <ul class="fr">
+        <li>
+            <a href="#"><span>
+<!--                <img src="imgs/search.png" alt="search" class="smpic">-->
+            </span>收藏夹</a>
+        </li>
+        <li>
+            <a href="search.html">寻物分类</a>
+        </li>
+        <li>|</li>
+        <li>
+            <a href="#">联系客服</a>
+            <span></span>
+        </li>
+        <li>
+            <a href="#">设置</a>
+            <span></span>
+        </li>
+        <li>
+            <a href="#">个人中心</a>
+            <span></span>
+        </li>
+    </ul>
+</div>
+
+
+<!--头部搜索-->
+<div id="headSearch">
+    <div class="clearfix layer">
+        <h1 class="fl"><a href="#">寻物网<br>
+            <h2>xunwuwang</h2></a></h1>
+    </div>
+    <div class="code fr"></div>
+    <div class="search clearfix">
+        <div class="searchBox fl">
+            <input type="text" placeholder="请输入关键字（外号如wife楼不可取）">
+            <div class="placeholder">
+                <i></i>
+                <span>请输入关键字（外号如wife楼不可取）</span>
+            </div>
+            <span></span>
+        </div>
+        <div class="btu fl">
+            <button type="submit">搜索</button>
+        </div>
+    </div>
+</div>
+
+<!--头部分割-->
+<div class="space">
+    &nbsp;
+</div>
+<!--头部导航栏-->
+<div id="nav" class="layer clearfix">
+    <h2 class="fl"><a href="peoson.html">寻找丢失物品的人</a></h2>
+    <span class="fr">公告</span>
+    <h2 class="fl"><a href="search.html">寻找失物</a></h2>
+</div>
+<!--主要板块-->
+<div id="fistScreen" class="layer">
+    <div id="searchpeo" class="fl">
+        <!--        <input type="radio" name="r" id="r1" checked>-->
+        <!--        <input type="radio" name="r" id="r2" >-->
+        <!--        <input type="radio" name="r" id="r3" >-->
+        <div class="slide">
+            <img src="imgs/6.jpg" alt="失主">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">联系</button>
+                </a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="imgs/1.jpg" alt="失主">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">联系</button>
+                </a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="imgs/4.jpg" alt="失主">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">联系</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="searchth" class="fl">
+        <!--        <input type="radio" name="r" id="a1" checked>-->
+        <!--        <input type="radio" name="r" id="a2" >-->
+        <!--        <input type="radio" name="r" id="a3" >-->
+        <div class="slide">
+            <img src="imgs/3.jpg" alt="失物">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">寻找</button>
+                </a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="imgs/2.jpg" alt="失物">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">寻找</button>
+                </a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="imgs/5.jpg" alt="失物">
+            <div class="ui-button">
+                <a href="#">
+                    <button class="look">寻找</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="post" class="fr">
+        <p>规则:</p>
+        <button><a href="search.html">急，校园卡掉了！</a></button>
+        <br>
+        <button><a href="peoson.html">捡到一张校园卡</a></button>
+        <p>感谢信:</p>
+        <span>浏览历史</span>
+    </div>
+</div>
+
+
+<!--右侧固定导航-->
+<div id="tool">
+
+</div>
+<!--尾部分割-->
+<div class="space">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</div>
+<footer>
+
+    <ul class="list">
+        <li class="fl"><a href="#">Home</a></li>
+        <li class="fl"><a href="#">About</a></li>
+        <li class="fl"><a href="#">Service</a></li>
+        <li class="fl"><a href="#">Team</a></li>
+        <li class="fl"><a href="#">Contact</a></li>
+    </ul>
+</footer>
+</body>
+</html>

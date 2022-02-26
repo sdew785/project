@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "index.css";
+/*分类模块*/
+.grid {
+    height: 500px;
+}
+
+.grid-word {
+    width: 150px;
+    height: 100%;
+    background-color: #99ccff;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.grid-word ul {
+    padding: 18px 0;
+}
+
+.grid-word ul li {
+    padding-left: 10px;
+    height: 29px;
+    line-height: 29px;
+}
+
+.grid-word ul a {
+    color: #fff;
+    font-size: 15px;
+    margin: 0 3px;
+}
+
+.grid-word a:hover {
+    color: blue;
+}
+.img-left{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+.img-right{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+.grid-img {
+    width: 890px;
+    height: 100%;
+    background-color: #99ccff;
+
+}
+.grid-img img {
+    width: 415px;
+    height: 200px;
+    overflow: hidden;
+}
+.grid-img .ui-button{
+    background-color: #99ccff;
+
+}
+ .grid-img input {
+    position: relative;
+    top: 2%;
+}
+
+
+.grid-img.look{
+    position: relative;
+    z-index: 999;
+    top: 42%;
+    left: 42%;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background-image: linear-gradient(to left, #fff1eb 0%, #ace0f9 100%);
+    border: #d7fffe solid 2px;
+    border-radius: 10px 10px 10px 10px;
+}
