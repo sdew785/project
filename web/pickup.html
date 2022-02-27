@@ -1,11 +1,11 @@
-<!--寻物页面-->
+<!--捡到物品页面-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>寻物</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="pickup.css">
     <title>寻物网-寻！你想要的</title>
     <style type="text/css">
         .searchBox {
@@ -95,15 +95,14 @@
 <div class="space">
     &nbsp;
 </div>
-<!--主要内容-->
 <!--分类区域-->
 <div class="grid layer clearfix ">
     <div class="grid-word fl">
         <ul>
-            <li><a href="search.html" class="sign">最新</a></li>
-            <li><a href="search1.html">校园卡</a></li>
+            <li><a href="peoson.html">最新</a></li>
+            <li><a href="#">校园卡</a></li>
             <li><a href="#">身份证</a></li>
-            <li><a href="search3.html">贵重物品</a></li>
+            <li><a href="#">贵重物品</a></li>
             <li><a href="#">逸夫楼</a></li>
             <li><a href="#">理化楼</a></li>
             <li><a href="#">教学楼</a></li>
@@ -115,38 +114,68 @@
             <li><a href="#">文法楼</a></li>
             <li><a href="#">冶金楼</a></li>
             <li><a href="#">宿舍楼</a></li>
-            <li><a href="lost.html">丢失物品详情登记</a></li>
+            <li><a href="pickup.html" class="sign">捡到物品详情登记</a></li>
         </ul>
     </div>
+    <!--捡到物品-->
     <div class="grid-img fr">
-        <div class="img-left fl">
-            <img src="imgs/2.jpg" alt="失物">
-            <div class="ui-button">
-                <a href="#">
-                    <button class="look">寻找</button>
-                </a>
+        <p class="top">捡到物品详情页 &nbsp;&nbsp;----------------------------------------------------------------</p>
+        <div class="middle">
+            <div class="fl pickPost">
+                <h1 class="post1">公告</h1>
+                <p class="postWord">您的联系方式不会泄漏给任何人， 失主需通过网站才可以和您联系</p>
             </div>
-            <img src="imgs/3.jpg" alt="失物">
-            <div class="ui-button">
-                <a href="#">
-                    <button class="look">寻找</button>
-                </a>
+            <div class="fl pickImg">
+                <span class="word"><a href="#">上传图片</a></span>
             </div>
         </div>
-        <div class="img-right fr">
-            <img src="imgs/3.jpg" alt="失物">
-            <div class="ui-button">
-                <a href="#">
-                    <button class="look">寻找</button>
-                </a>
-            </div>
-
-            <img src="imgs/2.jpg" alt="失物">
-            <div class="ui-button">
-                <a href="#">
-                    <button class="look">寻找</button>
-                </a>
-            </div>
+        <div class="bottom fl">
+            <form action="#">
+            <p class="bottomWord">
+                <a>拾到时间：</a>
+                <label>
+                    <input class="time" type="data" placeholder="例：2022/02/27">
+                </label>
+                <br>
+                <a>拾到地点：</a>
+                <label>
+                    <input class="time"  id="site" type="text" list="sitelist" placeholder="没有可选择的，请自行输入">
+                    <datalist id="sitelist">
+                        <option>逸夫楼</option>
+                        <option>教学楼</option>
+                        <option>理化楼</option>
+                        <option>冶金楼</option>
+                        <option>万秀</option>
+                        <option>鸿博</option>
+                        <option>文法楼</option>
+                        <option>宿舍楼</option>
+                    </datalist>
+                </label>
+                <br>
+                <a>物品种类：</a>
+                <label>
+                    <input class="time"  id="kind" type="text" list="kindlist" placeholder="没有可选择的，请自行输入">
+                    <datalist id="kindlist">
+                        <option>校园卡</option>
+                        <option>身份证</option>
+                        <option>笔</option>
+                        <option>贵重物品</option>
+                        <option>书</option>
+                        <option>杯子</option>
+                    </datalist>
+                </label>
+                <br>
+                <a>物品放置地点：</a>
+                <label>
+                    <input class="time"  id="place" type="text" placeholder="请自行输入详细地点，如逸夫楼1楼107讲台">
+                </label>
+                <br>
+               <a>备注：</a>
+                <label>
+                    <input class="time"  type="text" placeholder="自定义">
+                </label>
+            </p>
+            </form>
         </div>
     </div>
 

@@ -4,23 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>寻物</title>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="search.css">
-        <title>寻物网-寻！你想要的</title>
-        <style type="text/css">
-            .searchBox {
-                width: 554px;
-                height: 40px;
-                box-sizing: border-box;
-                border: 2px solid #ace0f9;
-                border-right: none;
-                border-radius: 20px 0 0 20px;
-                overflow: hidden;
-                position: relative;
-            }
-        </style>
-    </head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="search.css">
+    <title>寻物网-寻！你想要的</title>
+    <style type="text/css">
+        .searchBox {
+            width: 554px;
+            height: 40px;
+            box-sizing: border-box;
+            border: 2px solid #ace0f9;
+            border-right: none;
+            border-radius: 20px 0 0 20px;
+            overflow: hidden;
+            position: relative;
+        }
+    </style>
+</head>
 <body>
 
 <!--头部信息-->
@@ -45,6 +44,9 @@
             <a href="#"><span>
 <!--                <img src="imgs/search.png" alt="search" class="smpic">-->
             </span>收藏夹</a>
+        </li>
+        <li>
+            <a href="pickup.html">捡到物品</a>
         </li>
         <li>
             <a href="search.html">寻物分类</a>
@@ -75,7 +77,9 @@
     <div class="code fr"></div>
     <div class="search clearfix">
         <div class="searchBox fl">
-            <input type="text" placeholder="请输入关键字（外号如wife楼不可取）">
+            <label>
+                <input type="text" placeholder="请输入关键字（外号如wife楼不可取）">
+            </label>
             <div class="placeholder">
                 <i></i>
                 <span>请输入关键字（外号如wife楼不可取）</span>
@@ -95,7 +99,7 @@
 <div class="grid layer clearfix ">
     <div class="grid-word fl">
         <ul>
-            <li><a href="#">最新</a></li>
+            <li><a href="#" class="sign">最新</a></li>
             <li><a href="#">校园卡</a></li>
             <li><a href="#">身份证</a></li>
             <li><a href="#">贵重物品</a></li>
@@ -110,7 +114,7 @@
             <li><a href="#">文法楼</a></li>
             <li><a href="#">冶金楼</a></li>
             <li><a href="#">宿舍楼</a></li>
-            <li><a href="#">丢失物品详情登记</a></li>
+            <li><a href="pickup.html">捡到物品详情登记</a></li>
         </ul>
     </div>
     <div class="grid-img fr">
@@ -146,9 +150,7 @@
     </div>
 
 </div>
-</div>
 
-</div>
 <!--尾部分割-->
 <div class="space">
     <p>&nbsp;</p>

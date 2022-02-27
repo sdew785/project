@@ -7,13 +7,21 @@
     line-height: 35px;
     padding: 0 6px;
 }
-a:hover{
+
+ul a:hover {
     color: blue;
     background-color: #ace0f9;
 }
-button:hover{
+
+.sign {
+    color: blue;
+    background-color: #ace0f9;
+}
+
+button:hover {
     color: blue;
 }
+
 #headMessage {
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
@@ -106,7 +114,8 @@ button:hover{
     height: 250px;
     overflow: hidden;
 }
-#fistScreen .ui-button{
+
+#fistScreen .ui-button {
     background-color: #99ccff;
 
 }
@@ -120,7 +129,7 @@ button:hover{
     background-color: #dddddd;
 }
 
-.look{
+.look {
     position: relative;
     z-index: 999;
     top: 42%;
@@ -190,6 +199,7 @@ footer li a {
     text-decoration: none;
     opacity: 0.75;
 }
-footer li a:hover{
+
+footer li a:hover {
     opacity: 1;
 }
